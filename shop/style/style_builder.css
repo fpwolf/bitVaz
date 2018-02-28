@@ -3,3 +3,6 @@
   width: 850px;
   background-color: #d4d3cd;
 }
+#imageUrl, #textArea{
+  box-shadow: 1px 1px 5px black;
+}
