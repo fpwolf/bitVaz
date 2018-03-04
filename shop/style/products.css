@@ -50,7 +50,7 @@
     padding-bottom: 15px;
 }
 #block-zz-iv-zz-iv-search .search_block .search_block_content ul, #block-zz-iv-zz-iv-search .search_block .search_block_content ul li {
-    margin: 0;
+
     padding: 0;
     list-style: none none;
 }
@@ -69,4 +69,8 @@
 #block-zz-iv-zz-iv-search .search_block span.count {
     font-size: 10px;
     color: #999999;
+}
+.first_block_content ul li {
+    margin-top: 6px;
+    margin-bottom: 6px;
 }

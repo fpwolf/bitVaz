@@ -1,0 +1,143 @@
+.card_box{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.space_div{
+    padding-bottom: .6rem;
+}
+.card_box_content{
+    display: inline-block;
+    background-color: white;
+    width: 980px;
+    height: 420px;
+    box-shadow: 1px 1px 10px #00000087;
+}
+.item_list_header{
+    float: left;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+.header_text{
+    font-size: 27px;
+}
+.item_list_box{
+
+    width: 94%;
+    height: 100px;
+    margin-top: 8%;
+    margin-left: 3%;
+    border-top: 1px solid #a7a3a3;
+}
+.card_box_image{
+    margin-top: 1%;
+}
+.box_item_image{
+    width: 100px;
+}
+.box_item_info{
+    height: 60%;
+    border-bottom: 1px solid #a7a3a3;
+}
+.box_item_name{
+    padding-top: 4%;
+}
+.item_name_header{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 3%;
+}
+.item_price_quantity{
+    text-align: right;
+    list-style: none;
+    display: table;
+    float: right;
+    width: 100%;
+}
+.item_price_quantity li{
+    display: table-cell;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 13px;
+    color: black;
+}
+.item_price_quantity li:nth-child(3){
+    font-size: 14px;
+    font-weight: 800;
+    padding-right: 0;
+}
+.price_quantity_div{
+    padding-top: 1%;
+    height: 60%;
+    border-bottom: 1px solid #a7a3a3;
+    padding-right: 0;
+}
+.integer{
+    font-size: 1.2rem;
+    box-shadow: inset 0 0.1rem 0.1rem #AAA;
+    border: 1px solid #d6d6d6;
+    text-align: right;
+    width: 3rem;
+    padding-right: .3rem;
+    height: 2.4rem;
+    border-radius: .5rem;
+}
+.integer::-webkit-inner-spin-button,
+.integer::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.integer:focus{
+    outline: none;
+}
+.remove_div{
+    cursor: pointer;
+    float: right;
+    color: red;
+    font-size: 12px;
+    margin-top: 2%;
+    font-weight: 600;
+}
+.final_price_info{
+    width: 94%;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-top: 1px solid #a7a3a3;;
+}
+.price_table{
+    float: right;
+    margin-top: 2%;
+}
+.subtotal_price_text{
+    text-align: left;
+    font-size: 13px;
+    color: black;
+    padding-right: 10%;
+}
+.subtotal_price{
+    text-align: left;
+    font-size: 13px;
+    color: black;
+}
+.card_page_checkout{
+    display: inline-block;
+    width: 100%;
+    height: 18.5%;
+    float: left;
+    margin-top: 2%;
+    border-top: 1px solid #a7a3a3;
+    background: linear-gradient(to bottom,#fff 0,#f2f2f2 70%,#f2f2f2 100%);
+}
+.card_checkout_button{
+    float: right;
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    background-color: #00b9d9;
+    border: 1px solid #008fa9;
+    border-radius: 0.5rem;
+    color: white;
+    margin-top: 2%;
+    margin-right: 3%;
+}
