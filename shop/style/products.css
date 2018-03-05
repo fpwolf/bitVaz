@@ -1,6 +1,10 @@
+.sidebars{
+    float: left;
+    width: 289px;
+}
 .region-sidebar-first{
     float: left;
-    width: 300px;
+    width: 289px;
     margin-left: 0px;
     margin-right: -320px;
     padding-left: 10px;
@@ -23,8 +27,10 @@
 }
 .wrapper-mobile{
     float: right;
-    width: 80% !important;
+    width: 78% !important;
     margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 #block-zz-iv-zz-iv-search .search_block.widget_expanded h3 {
     background: transparent url("../img/filters_arrow_up.png") no-repeat 0 5px;
