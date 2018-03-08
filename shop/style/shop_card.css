@@ -83,6 +83,20 @@
     height: 2.4rem;
     border-radius: .5rem;
 }
+.more , .less{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 7%;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+.less{
+    margin-top: 5%;
+}
+
 .integer::-webkit-inner-spin-button,
 .integer::-webkit-outer-spin-button {
     -webkit-appearance: none;

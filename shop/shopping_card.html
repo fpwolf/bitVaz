@@ -148,14 +148,18 @@
             </div>
             <div class="col-md-6 price_quantity_div">
                 <ul class="item_price_quantity">
-                    <li>$499</li>
-                    <li>
+                    <li class="itemus">499<span>руб</span></li>
+
+                    <li style="width: 170px">
+                        <button type="button" id="sub" class="sub">-</button>
                         <label>
-                            <input type="number" class="integer" pattern="[0-9]*" min="0" maxlength="3" max="999"
+                            <input type="number" value="1" class="integer" pattern="[0-9]*" min="0" maxlength="3" max="999"
                                    data-validated="1">
                         </label>
+                        <button type="button" id="add" class="add" style="padding-left: 4px; padding-right: 4px">+</button>
                     </li>
-                    <li>$499</li>
+
+                    <li class="total_of_item">499<span>руб</span></li>
                 </ul>
             </div>
             <div class="remove_div">Remove</div>
@@ -164,15 +168,19 @@
             <table class="price_table">
                 <tr>
                     <td class="subtotal_price_text" >Bag Subtotal</td>
-                    <td class="subtotal_price">$499.00</td>
+                    <td class="subtotal_price total_of_item">499<span>руб</span></td>
                 </tr>
                 <tr>
-                    <td class="subtotal_price_text" style="color:#00b9d9; border-bottom: 1px solid #a7a3a3; padding-bottom: 8%" >Free Shipping</td>
-                    <td class="subtotal_price" style="color:#00b9d9; border-bottom: 1px solid #a7a3a3; padding-bottom: 8%">$0.00</td>
+                    <td class="subtotal_price_text" style="color:#00b9d9;" >Free Shipping</td>
+                    <td class="subtotal_price" style="color:#00b9d9;">$0.00</td>
                 </tr>
                 <tr>
+                    <td class="subtotal_price_text" style=" border-bottom: 1px solid #a7a3a3;" >Your Discount</td>
+                    <td class="subtotal_price total_percent" style=" border-bottom: 1px solid #a7a3a3;">10<span>%</span></td>
+                </tr>
+                <tr style="padding-top: 3%">
                     <th class="subtotal_price_text" style="color:black; font-size: 16px" >Total</th>
-                    <th class="subtotal_price" style="color:black; font-size: 16px">$499.00</th>
+                    <th class="subtotal_price total_price" style="color:black; font-size: 16px">499<span>руб</span></th>
                 </tr>
             </table>
         </div>
